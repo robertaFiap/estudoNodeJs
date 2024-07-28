@@ -72,7 +72,7 @@ console.log("A nota é valida? " + validar);
 console.log("Programa verificador de cor primária");
 console.log("------------------------------------");
 console.log();
-console.log("Informe a cor");
+console.log("Informe a cor desejada:");
 console.log();
 let cor = pergunta();
 let validaCor = cor == "azul" || cor == "vermelho" || cor == 'amarelo';
