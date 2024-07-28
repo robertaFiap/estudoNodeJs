@@ -1,7 +1,7 @@
 import prompt from 'prompt-sync';
 let pergunta = prompt();
 
-console.log("Inicio do primeiro programa");
+console.log("Inicio do primeiro programa utilizando javascript e nodejs");
 console.log("Qual seu nome?");
 let nome = pergunta();
 
