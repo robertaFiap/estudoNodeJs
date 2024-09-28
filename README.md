@@ -1,101 +1,74 @@
 # Integração Frontend X Backend
 
-Este projeto tem a finalidade de criar o Frontend e integra-lo com o backend já desenvolvido no módulo anterior.
+Este projeto tem a finalidade de criar o Frontend de uma biblioteca(crud) e integra-lo com o backend já desenvolvido no módulo anterior.
+
+
+## 🚀 Começando
+
+Para a execução deste projeto é necessário executar tanto o Backend como o Frontend, ter instalado todos os softwarea abaixo para que obtenha uma excelente experiência.
+
 
 ## 📋 Pré-requisitos
 
-De que coisas você precisa para instalar o software e como instalá-lo?
+É necessário ter instalado os seguintes software: 
 
 ```
-Dar exemplos
+Nodejs, Visual Studio Code, 
 ```
 
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
-
-Diga como essa etapa será:
+Após os softwares instalados e baixado o projeto localmente, seguir os seguintes passos:
 
 ```
-Dar exemplos
-```
+* Backend
 
-E repita:
+  1) Abrir no VSCode
+  2) Para subir a aplicação no terminal digite: npm run dev
+
+* Frontend
+
+  1) Abrir no VSCode
+  2) Abrir o terminal e seguir para as instalações:
+      2.1) npm install
+      2.2) npm install react-router-dom
+      2.3) npm install react-bootstrap bootstrap
+  3) Para subir a aplicação no terminal digite: npm run dev
+  4) Abrir a pagina localhost indicada.
 
 ```
-Até finalizar
-```
-
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
 
 ## ⚙️ Executando os testes
 
-Explicar como executar os testes automatizados para este sistema.
+Na página da biblioteca, poderá desfrutar das seguintes opções:
+
+Lista de livros;
+Alterar o titulo, autor ou editora;
+Deletar o livro;
+Inserir um novo livro
 
 ### 🔩 Analise os testes de ponta a ponta
 
-Explique que eles verificam esses testes e porquê.
+Avalie a navegação das páginas, bem como a funcionalidado do crud.
 
 ```
-Dar exemplos
+Verifique a lista de livros trouxe todos os livros cadastrados no banco de dados;
+Altere qualquer campo(titulo, autor ou editora) e valide se reflete corretamente na aplicação;
+Delete um livro e verifique se a lista de lista será atualizada retirando o livro;
+Insera um novo livro preenchendo os campos(titulo, autor ou editora) e valide se p novo livro será refletido na aplicação
 ```
-
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-## 📦 Implantação
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
 ## 🛠️ Construído com
 
-Este projeto foi construido utilizando as seguintes tecnologias:
+Este projeto foi construído utilizando as seguintes tecnologias:
 
-![Static Badge](https://img.shields.io/badge/JavaScript-badge?style=flat&logo=javascript&logoColor=black&color=%23F7DF1E)
-![Static Badge](https://img.shields.io/badge/Node.js-badge?style=flat&logo=nodedotjs&logoColor=black&color=%235FA04E)
-![Static Badge](https://img.shields.io/badge/Github-badge?style=flat&logo=github&labelColor=%23181717&color=white)
-![Static Badge](https://img.shields.io/badge/badge?style=flat&logo=react)
+* ![Static Badge](https://img.shields.io/badge/JavaScript-badge?style=flat&logo=javascript&logoColor=black&color=%23F7DF1E)
+* ![Static Badge](https://img.shields.io/badge/Node.js-badge?style=flat&logo=nodedotjs&logoColor=black&color=%235FA04E)
+* ![Static Badge](https://img.shields.io/badge/Github-badge?style=flat&logo=github&labelColor=%23181717&color=white)
+* ![Static Badge](https://img.shields.io/badge/React-black?style=flat&logo=react&logoColor=white&labelColor=blue&color=white)
+* ![Static Badge](https://img.shields.io/badge/React_Bootstrap-blue?style=flat&logo=react-bootstrap&logoColor=blue&labelColor=black&color=blue)
+* ![Static Badge](https://img.shields.io/badge/HTML5-red?style=flat&logo=HTML5&logoColor=white&labelColor=red&color=black)
+* ![Static Badge](https://img.shields.io/badge/CSS3-white?style=flat&logo=CSS3&logoColor=white&labelColor=blue&color=black)
+* ![Static Badge](https://img.shields.io/badge/MongoDB-green?style=flat&logo=MongoDB&logoColor=green&labelColor=white&color=green)
 
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-## 📌 Versão
-
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
-
-## ✒️ Autores
-
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
-
-## 📄 Licença
-
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
-
-## 🎁 Expressões de gratidão
-
-* Conte a outras pessoas sobre este projeto 📢;
-* Convide alguém da equipe para uma cerveja 🍺;
-* Um agradecimento publicamente 🫂;
-* etc.
-
-## Tecnologia
-
-![Static Badge](https://img.shields.io/badge/JavaScript-badge?style=flat&logo=javascript&logoColor=black&color=%23F7DF1E)![Static Badge](https://img.shields.io/badge/Node.js-badge?style=flat&logo=nodedotjs&logoColor=black&color=%235FA04E)
-![Static Badge](https://img.shields.io/badge/Github-badge?style=flat&logo=github&labelColor=%23181717&color=%235FA04E)
-![Static Badge](https://img.shields.io/badge/Github-badge?style=flat&logo=github&labelColor=%23181717&color=white)
